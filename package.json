@@ -1,0 +1,23 @@
+{
+  "name": "algorithms-practice",
+  "version": "1.0.0",
+  "description": "Algorithms practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonbaum/algorithms-practice.git"
+  },
+  "keywords": [
+    "algorithms",
+    "javascript"
+  ],
+  "author": "Gonzalo Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gonbaum/algorithms-practice/issues"
+  },
+  "homepage": "https://github.com/gonbaum/algorithms-practice#readme"
+}
