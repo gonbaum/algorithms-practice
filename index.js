@@ -252,3 +252,22 @@ const isPrime = (num) => {
   }
   return num > 1
 }
+
+const getPrimesSumTo = (num) => {
+  let collection = []
+
+  for (i = 2, acc = 0; acc <= num; i++) {
+    if (isPrime(i)) {
+      acc = acc + i
+      collection.push(i)
+    }
+  }
+  return collection.slice(0, -1)
+}
+
+let primes = getPrimesSumTo(1000)
+
+//test:
+let test = primes.reduce((acc, total) => acc + total)
+console.log(test)
+console.log(test <= 1000)
